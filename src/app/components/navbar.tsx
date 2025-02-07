@@ -8,7 +8,7 @@ import { useState } from "react"; // Import useState hook
 import { motion } from "framer-motion"; // Import motion from framer-motion
 import { useSelector } from "react-redux"; // Redux selector for cart and wishlist state
 import { RootState } from "@/redux/store"; // Root state type for Redux
-import { SignedIn, SignedOut , SignInButton, UserButton} from '@clerk/nextjs';
+
 // Define iconVariants for motion.div animations
 const iconVariants = {
   hover: { scale: 1.2 },
@@ -204,7 +204,3 @@ const Header = ({ setShowCart }: HeaderProps) => {
 };
 
 export default Header;
-
-
-
-

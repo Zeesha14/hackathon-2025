@@ -8,10 +8,10 @@ function _importDefault(mod) {
 }
 
 export const client = createClient({
-    projectId: "1p3qzpmf",
+    projectId: "ndbwb3vp",
     dataset: "production", 
     apiVersion: "v2025-01-18", 
-    token: "skM6zgYmhbuO30I15owBIcZKkSbmkiGDBL0ptuECiWSNIuMNbeCfZ2R2UH8expnqe15Dv1EH0cRp8CJwolyesgVeall5mBIQEFTXQjGIEc8R69nZ9dmFrZc5ldJIeJUrAhyl4rAJLavrznpdYftDG83iJWxuA8RPyN2mf8UeE24XyRo6Vy2q", // Your actual Sanity API token
+    token: "sk69lFuXFkvqRI0HApjxVhcBggGtDvapmqZecdcKu0aRQF6W7YdwoioPFYD852E0RVpgPhPBb1LErfH1p3DCAUccjJE9Nc6RbG6qIMaslxhrgHxhCG0Rz9g104QNxEp3gQF6nbTAVufCNOuCXrsIZsTatdeRHi9gVTvbYXpleQb0uNBTp6rc", // Your actual Sanity API token
     useCdn: false,
 });
 
